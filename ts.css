@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background: #0776A0;
+	display: flex;	
+  height: 100px;
+}
+.header_logo{
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 800;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 36px;
+	margin-left: 12%;	
+}
+
+.LK{
+	font-size: 30px;
+	margin-left: 50%;
+	margin-top: 47px;
+  font-family: 'Comfortaa', cursive;
+}
+
+
+button{
+  cursor: pointer;
+  min-width: 800px;
+  height: 100px;
+  padding: 15px 5px;
+  vertical-align: middle;
+  background: #3da35a;
+  border: none;
+  color: #ffffff;
+  font-weight: 1000;
+  font-size: 60px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(56,100,38);
+  transition: all 1s;
+}
+
+button:hover {
+  box-shadow: 0 0 25px rgb(56,100,38);
+}
+
+button:focus {
+  outline: none;
+}
+.but1{
+  margin-left: 10%;
+  margin-top: 153px;
+}
+.but2{
+  margin-left: 10%;
+  margin-top: 163px;
+}
+.but3{
+  margin-left: 10%;
+  margin-top: 173px;
+}
+.img1{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+.img2{
+  right: 30px;
+  top: 120px;
+  position: absolute;
+  font-size:  50px;
+}
+
+input{
+  font-size: 56px;
+  height: 56px;
+  width: 200px;
+}
+a{text-decoration: none;
+
+}
+@media screen and (max-width: 320px)
+{
+  button{
+    min-width: 300px;
+    font-size: 30px;
+  }
+  .img2{
+    position: static;
+    width: 50;
+    height: 50;
+    padding: 15px;
+  }
+  .LK{
+    font-size: 25px;
+    margin-left: 55px;
+
+  }
+}
